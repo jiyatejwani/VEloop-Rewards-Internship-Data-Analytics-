@@ -1,4 +1,12 @@
 window.VELOOP_DATA = {
+ "meta": {
+  "source": "VELOOP_Simulated_User_Behavior_1000.xlsx (File 2, integrated)",
+  "note": "SIMULATED / FICTIONAL data. Notactual VELOOP figures",
+  "date_range": [
+   "2026-04-02",
+   "2026-09-15"
+  ]
+ },
  "tiles": {
   "total_users": 1000,
   "total_sessions": 7913,
@@ -42,6 +50,33 @@ window.VELOOP_DATA = {
   "Not Started": 153,
   "Started": 162,
   "Completed": 685
+ },
+ "verification": {
+  "Verified": 851,
+  "Pending": 149
+ },
+ "gender": {
+  "Male": 343,
+  "Female": 336,
+  "Prefer not to say": 321
+ },
+ "age_hist": {
+  "18-22": 224,
+  "23-27": 227,
+  "28-32": 232,
+  "33-39": 317
+ },
+ "top_states": {
+  "Karnataka": 119,
+  "West Bengal": 118,
+  "Kerala": 92,
+  "Haryana": 86,
+  "Chhattisgarh": 73,
+  "Maharashtra": 64,
+  "Gujarat": 62,
+  "Punjab": 52,
+  "Uttar Pradesh": 46,
+  "Madhya Pradesh": 45
  },
  "wau_trend": {
   "2026-04-05": 1.3,
@@ -104,6 +139,14 @@ window.VELOOP_DATA = {
   "Follow & Earn": 71.4,
   "Badges": 75.1
  },
+ "entry_point": {
+  "Direct Feature": 1376,
+  "Notification": 1352,
+  "Home": 1346,
+  "Wallet": 1318,
+  "Referral Page": 1290,
+  "Help/Support": 1231
+ },
  "task_status": {
   "Completed": 5627,
   "Abandoned": 2051,
@@ -126,6 +169,11 @@ window.VELOOP_DATA = {
   "Timeout": 710,
   "Incomplete action": 706,
   "User exited": 701
+ },
+ "reward_status": {
+  "Credited": 5627,
+  "Not Credited": 3571,
+  "Pending": 648
  },
  "event_status": {
   "Started": 18628,
@@ -156,9 +204,9 @@ window.VELOOP_DATA = {
   "D30": 6.9
  },
  "proposed": {
-  "Reward credit volume": "Requires a rewards ledger (amount, unit, state) - not in supplied data",
-  "Wallet transaction volume": "Requires a wallet transactions table - not in supplied data",
-  "Withdrawal completion rate": "Requires a withdrawals table - not in supplied data",
-  "Referral conversion rate": "Requires a referral lifecycle table - not in supplied data"
+  "Reward credit volume": "Requires a rewards ledger (amount, unit, state). Notin supplied data",
+  "Wallet transaction volume": "Requires a wallet transactions table. Notin supplied data",
+  "Withdrawal completion rate": "Requires a withdrawals table. Notin supplied data",
+  "Referral conversion rate": "Requires a referral lifecycle table. Notin supplied data"
  }
 };
